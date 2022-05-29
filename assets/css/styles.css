@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   border: 0%;
+  
 }
 .grid-container {
   display: grid;
@@ -17,7 +18,7 @@ navbar {
   background-color: lightblue;
 }
 .main{
-    grid-area: main;
+    grid-area: main;    
 }
 
 footer{
@@ -38,14 +39,18 @@ footer{
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    
 }
 .img-format{
     border: lightslategray 1px solid;
+    width: auto;
 }
-.icons{
+.footer-style{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
-    margin-top: 4%;
     align-items: center;
-    flex-flow: row nowrap;
+    background-color: #1976d2;
+    color: white;
+    padding-top: 2%;
 }
